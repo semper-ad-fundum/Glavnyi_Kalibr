@@ -1,0 +1,25 @@
+encoding  utf-8
+language ru
+
+source surface.th
+source entr.th
+source main.th
+
+export model
+export model -format survex
+
+layout normal
+     symbol-set BCRA
+     scale 1 200
+     doc-author "Paweł Krawczyk"
+     doc-title "Главный Калибр"
+     statistics explo all  
+     statistics topo all
+     statistics carto all
+     statistics copyright all
+     legend on
+     map-comment "Сары Тала"
+endlayout
+
+#export map -format pdf -layout normal -o cave.pdf
+#export map -format svg -layout normal -o cave.svg
