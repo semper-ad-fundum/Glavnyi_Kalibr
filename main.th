@@ -1,0 +1,57 @@
+encoding  utf-8
+
+survey main -title "Главный Калибр" 
+
+  # исходные данные веток 
+  input "surveys/1982.map.th"
+  input "surveys/2009.HM.th"
+  input "surveys/2009.UW.th"
+  input "surveys/2009.NY.th"
+  input "surveys/2010.JJ.th"
+  input "surveys/2017.surface.th" 
+  input "surveys/2017.river.th"
+  input "surveys/2017.pbl2.th"
+  input "surveys/2017.dalhod.th"
+  input "surveys/2017.pravhod.th"
+
+  # обрисовка карты пещеры
+  input "plan.th2"
+  
+  map schema -projection plan
+    entr
+    HM
+    PBL2
+    pravhod
+    UW
+    scrapNY4
+    scrapNY3
+    scrapJJ
+    break
+    HMc
+    PBL2b
+    scrap22J
+    scrapNY2
+    scrap2J
+    HMb 
+  endmap
+  
+  # обрисовка разреза пещеры
+  input "extended.th2"
+  
+  map schema_ext -projection extended
+    scrap1
+    scrap2
+    scrap3
+    scrap4
+    scrap5
+    scrap6_HM
+    scrap6_pbl
+    scrap7
+    scrap8_UW
+    scrap9_NY
+    scrap9_JJ
+    scrap9_2JJ
+  endmap
+
+endsurvey
+

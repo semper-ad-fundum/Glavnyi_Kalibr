@@ -1,0 +1,11 @@
+ # Старая топа. Надо оцифровать или переснять. Сейчас просто один большой пикет
+ #centerline
+  # date 1982.11.01
+  # declination 0 degree
+  # units length meters
+   #units compass clino degrees
+  # data normal from to length compass clino
+  #  HMt4 Entr 10 0 -90
+#  Entr   18 525    304.7  -2
+   
+ # endcenterline

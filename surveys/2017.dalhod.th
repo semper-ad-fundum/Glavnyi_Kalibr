@@ -1,0 +1,84 @@
+survey dalhod_survey -namespace off
+  centerline
+    date 2017.01.10 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    pbl2_12 dalhod2 1.64 337.6 53.8
+    dalhod2 - 1.14 224.1 54.2
+    dalhod2 - 0.76 231.5 6.0
+    extend right
+    dalhod2 - 1.27 163.0 5.4
+    dalhod2 - 1.38 132.4 -16.2
+    dalhod2 - 3.46 147.0 -57.7
+    dalhod2 - 1.38 148.4 -71.1
+    extend left
+    dalhod2 - 0.97 182.3 -54.3
+    extend right
+    dalhod2 - 1.03 16.2 -81.2
+    extend left
+    dalhod2 - 3.59 297.9 24.0
+    dalhod2 - 4.32 309.5 9.6
+    dalhod2 dalhod3 6.55 305.7 15.1
+    extend right
+    dalhod3 - 1.70 123.8 85.4
+    dalhod3 - 5.32 107.5 -2.6
+    dalhod3 - 0.50 30.4 4.0
+    extend left
+    dalhod3 - 1.61 259.2 -84.7
+    dalhod3 - 1.29 298.6 -62.6
+    dalhod3 dalhod4 1.66 298.7 -8.5
+    extend right
+    dalhod4 - 1.63 36.2 74.0
+    dalhod4 - 0.63 29.1 9.0
+    dalhod4 - 0.92 99.3 -83.0
+    extend left
+    dalhod4 - 1.10 343.6 7.9
+    dalhod4 - 0.82 359.4 10.5
+    dalhod4 dalhod5 3.88 319.1 10.5
+    dalhod5 - 0.56 203.0 6.1
+    dalhod5 - 0.99 194.4 42.7
+    extend right
+    dalhod5 - 0.56 117.0 -86.6
+    extend left
+    dalhod5 dalhod6 2.95 293.1 3.6
+    extend right
+    dalhod6 - 0.74 20.1 19.0
+    dalhod6 - 0.78 38.5 79.0
+    dalhod6 - 0.63 62.9 -87.4
+    extend left
+    dalhod6 dalhod7 3.74 313.3 7.5
+    dalhod7 - 0.37 231.0 4.3
+    dalhod7 - 0.78 355.5 -83.1
+    dalhod7 - 0.87 182.7 74.1
+    dalhod7 dalhod8 3.72 302.7 7.4
+    extend right
+    dalhod8 - 0.31 33.9 4.5
+    dalhod8 - 1.12 106.3 -81.6
+    dalhod8 - 0.28 75.8 83.5
+    extend left
+    dalhod8 - 2.14 305.5 8.5
+    dalhod8 dalhod9 4.96 305.1 13.6
+    extend right
+    dalhod9 - 2.14 156.6 -0.3
+    dalhod9 - 3.73 105.2 -12.6
+    dalhod9 - 3.82 100.8 -14.3
+    dalhod9 - 3.71 86.3 -4.1
+    dalhod9 - 3.58 73.0 -4.5
+    dalhod9 - 2.17 178.7 2.2
+    extend left
+    dalhod9 - 2.39 228.8 -0.8
+    dalhod9 - 2.22 250.6 0.3
+    dalhod9 - 1.05 274.0 1.5
+    dalhod9 - 2.64 268.5 2.4
+    extend right
+    dalhod9 - 2.80 54.5 3.0
+    dalhod9 - 1.85 44.4 5.0
+    dalhod9 - 0.26 20.9 -80.7
+    dalhod9 - 6.95 103.6 71.5
+    dalhod9 - 3.95 145.4 70.2
+    dalhod9 - 6.55 81.5 54.0
+  endcenterline
+endsurvey

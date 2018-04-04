@@ -1,0 +1,193 @@
+encoding  utf-8
+survey PBL2_survey -namespace off
+centerline
+    date 2017.01.12 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    anchor_mordog - 4.55 164.4 66.9
+    extend left
+    anchor_mordog kolod2 2.51 279.5 -37.4
+    extend right
+    kolod2 HM101 13.83 171.8 -67.0
+    extend left
+    HM101 - 3.70 290.5 12.2
+  endcenterline
+ # 2017.01.12 created by TopoDroid v 3.3.0
+
+#survey схема1_зал_пбл2 -title "схема1_зал_пбл2"
+
+  centerline
+    date 2017.01.10 
+    # declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    anchor_mordog - 0.38 325.1 78.6
+    extend right
+    anchor_mordog - 0.50 0.6 -4.7
+    extend left
+    anchor_mordog - 1.15 357.7 -20.3
+    extend right
+    anchor_mordog - 1.00 43.9 -77.3
+    anchor_mordog - 4.94 61.4 1.2
+    anchor_mordog - 3.80 56.1 17.3
+    anchor_mordog - 2.71 80.8 9.0
+    anchor_mordog - 6.63 45.3 -0.3
+    anchor_mordog - 7.54 39.0 2.8
+    anchor_mordog pbl2_7 5.31 56.4 1.6
+    extend left
+    pbl2_7 - 0.60 304.6 81.5
+    pbl2_7 - 0.93 340.1 -79.1
+    pbl2_7 - 6.78 336.4 -0.7
+    pbl2_7 - 2.39 222.6 10.5
+    pbl2_7 - 5.48 219.8 13.1
+    pbl2_7 - 3.47 265.8 -7.7
+    pbl2_7 - 4.22 253.0 -3.3
+    pbl2_7 - 6.99 246.6 13.5
+    pbl2_7 - 9.40 245.7 18.3
+    pbl2_7 - 10.32 251.2 15.1
+    pbl2_7 - 6.52 257.2 21.3
+    pbl2_7 - 4.63 246.3 24.2
+    pbl2_7 - 5.52 219.9 12.9
+    pbl2_7 - 4.02 318.1 4.0
+    pbl2_7 pbl2_8 20.99 305.1 1.3
+    extend right
+    pbl2_8 - 0.78 146.2 83.2
+    pbl2_8 - 0.42 129.9 -87.1
+    pbl2_8 - 1.47 125.2 32.1
+    pbl2_8 - 9.06 103.1 -2.4
+    pbl2_8 - 13.02 145.6 3.3
+    extend left
+    pbl2_8 - 3.04 197.8 24.0
+    extend right
+    pbl2_8 - 2.58 53.0 3.1
+    pbl2_8 - 2.61 87.2 -29.2
+    pbl2_8 - 21.12 118.0 -2.7
+    pbl2_8 - 20.97 119.8 -2.4
+    extend left
+    pbl2_8 pbl2_9 3.77 308.0 4.1
+    pbl2_9 - 0.63 201.0 77.0
+    pbl2_9 - 2.86 183.1 12.7
+    extend right
+    pbl2_9 - 1.84 143.4 16.2
+    extend left
+    pbl2_9 pbl2_10 8.37 257.9 5.6
+    extend right
+    
+   # pbl2_10 - сталагмит, ГМЛ4
+  cs lat-long
+  fix pbl2_10  43.356367  43.413083 1225
+
+     pbl2_10 - 1.68 93.0 86.6
+    pbl2_10 - 0.73 31.8 -78.5
+    pbl2_10 - 5.02 177.4 7.8
+    extend left
+    pbl2_10 - 2.94 352.9 -0.8
+    pbl2_10 - 5.68 270.5 2.6
+    pbl2_10 - 4.06 325.4 3.5
+    extend right
+    pbl2_10 - 14.36 103.2 2.8
+    pbl2_10 - 6.82 121.2 3.9
+    pbl2_10 - 11.22 57.1 -5.6
+    pbl2_10 - 6.55 40.8 -3.5
+    pbl2_10 - 6.48 34.8 1.9
+    extend left
+    pbl2_10 - 12.57 311.3 3.2
+    pbl2_10 pbl2_11 12.12 311.3 3.4
+    pbl2_11 - 1.86 190.1 78.2
+    extend right
+    pbl2_11 - 1.02 65.8 83.8
+    pbl2_11 - 1.97 44.5 54.8
+    pbl2_11 - 2.62 45.5 50.0
+    pbl2_11 - 1.44 53.5 31.4
+    extend left
+    pbl2_11 - 2.50 202.0 -3.5
+    pbl2_11 - 0.94 211.3 -76.8
+    extend right
+    pbl2_11 - 4.65 96.8 0.1
+    pbl2_11 - 2.19 65.9 -3.6
+    pbl2_11 pbl2_12 1.78 49.9 13.1
+    extend left
+    pbl2_12 - 2.49 247.3 81.2
+    pbl2_12 - 1.93 332.3 53.1
+    pbl2_12 - 2.50 314.9 63.7
+    pbl2_12 - 2.73 304.0 70.8
+    pbl2_12 - 0.98 328.8 40.3
+    pbl2_12 - 1.73 314.2 -82.0
+    pbl2_12 - 0.66 281.1 -17.3
+    pbl2_12 - 1.99 304.3 -31.2
+    pbl2_12 pbl2_13 4.01 211.7 -8.9
+    extend right
+    pbl2_13 - 6.13 121.0 -6.7
+    pbl2_13 - 0.30 88.4 59.1
+    pbl2_13 - 0.45 168.2 -80.1
+    pbl2_13 - 5.68 63.2 -2.2
+    pbl2_13 - 4.17 48.1 1.0
+    pbl2_13 - 16.61 80.8 -4.3
+    pbl2_13 - 9.02 112.3 -5.2
+    extend left
+    pbl2_13 - 2.39 352.5 1.7
+    extend right
+    pbl2_13 pbl2_14 6.81 116.5 -5.7
+    pbl2_14 - 0.45 43.9 80.0
+    pbl2_14 - 4.95 23.7 3.2
+    pbl2_14 - 5.14 8.5 5.1
+    pbl2_14 - 1.30 24.1 -36.8
+    pbl2_14 - 0.60 42.8 -56.0
+    pbl2_14 - 14.99 56.2 -2.9
+    pbl2_14 - 6.86 45.6 0.5
+    pbl2_14 - 8.78 94.1 3.2
+    pbl2_14 - 9.33 92.5 3.5
+    pbl2_14 - 7.83 82.7 3.7
+    pbl2_14 - 10.58 70.2 1.4
+    pbl2_14 pbl2_15 8.27 81.2 2.7
+    extend left
+    pbl2_15 - 0.79 255.4 -84.9
+    extend right
+    pbl2_15 - 6.99 20.3 -9.7
+    pbl2_15 - 1.69 20.7 8.0
+    pbl2_15 - 6.17 71.0 -4.7
+    pbl2_15 - 11.59 97.8 -0.7
+    pbl2_15 - 3.15 153.8 -5.9
+    extend left
+    pbl2_15 - 4.11 254.4 5.8
+    pbl2_15 - 3.70 216.9 0.0
+    extend right
+    pbl2_15 pbl2_16 12.04 95.5 -1.2
+    pbl2_16 - 6.37 13.1 -17.2
+    pbl2_16 - 3.85 59.8 -10.6
+    pbl2_16 - 9.32 56.0 -15.7
+    pbl2_16 - 14.85 84.5 -6.3
+    pbl2_16 - 5.59 85.3 -1.8
+    pbl2_16 - 0.41 40.2 79.3
+    pbl2_16 - 0.96 91.0 -78.1
+    extend left
+    pbl2_16 - 9.19 295.2 0.5
+    pbl2_16 - 4.24 275.5 -6.5
+    extend right
+    pbl2_16 pbl2_17 7.44 86.0 -4.7
+    pbl2_17 - 0.62 6.8 -85.1
+    pbl2_17 - 5.05 3.5 -25.4
+    pbl2_17 - 1.44 14.0 -23.6
+    pbl2_17 - 6.66 27.1 -26.0
+    pbl2_17 - 5.75 44.3 -22.7
+    pbl2_17 pbl2_18 5.43 142.1 5.3
+    pbl2_18 - 1.95 62.3 -19.3
+    extend left
+    pbl2_18 - 2.77 249.3 5.4
+    pbl2_18 - 7.69 252.0 -0.5
+    pbl2_18 - 8.42 289.4 3.8
+    pbl2_18 - 4.57 305.7 3.6
+    pbl2_18 - 3.16 241.6 1.2
+    extend right
+    pbl2_18 - 3.99 51.3 -56.8
+    pbl2_18 - 4.85 15.5 -43.1
+    pbl2_18 - 0.52 154.8 -89.8
+    pbl2_18 pbl2_19 6.45 38.7 -19.0
+  endcenterline
+endsurvey
+

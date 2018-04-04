@@ -1,0 +1,34 @@
+encoding  utf-8
+language ru
+
+source main.th
+
+# только после добавления новых веток, нужно для обрисовки карты
+#export map -format xvi -layout normal -o working/background.xvi
+#export map -format xvi -projection extended -o working/background_ext.xvi
+
+layout normal
+     symbol-set UIS
+     scale 1 500
+     doc-author "Григорий Саневич, Павел Кравчик"
+     doc-title "Главный Калибр"
+     statistics explo all  
+     statistics topo all
+     statistics carto all
+     statistics copyright all
+     map-comment "Спелеоклуб Перово"
+     # помогает при обрисовке новых веток
+     #debug station-names
+     # выключаем поскольку получается очень маленькой на карте большого масштаба
+     map-header 0 0 off
+     color map-fg 80
+     symbol-hide group surface-centerline
+     symbol-hide group cave-centerline
+     symbol-hide point cave-station
+endlayout
+
+export map -format pdf -layout normal -projection extended -o output/GlavnyKalibrExt.pdf
+export map -format pdf -layout normal -o output/GlavnyKalibr.pdf
+export map -o output/GlavnyKalibr.svg
+export map -o output/GlavnyKalibr.kml
+export model -o output/GlavnyKalibr.3d
