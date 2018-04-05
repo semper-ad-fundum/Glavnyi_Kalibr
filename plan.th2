@@ -321,9 +321,6 @@ line wall
   smooth off
 endline
 
-line chimney
-endline
-
 point 15571.0 2848.0 water-flow
 
 line wall
@@ -1007,8 +1004,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   10007.0 6482.0
@@ -1029,9 +1024,6 @@ line wall
   10017.0 5902.0 10014.0 5921.0 9992.0 5921.0
   9970.0 5921.0 9905.0 5748.0 9893.0 5737.0
   smooth off
-endline
-
-line wall
 endline
 
 point 9046.3 4961.020000000002 station -name NY3.8
@@ -1130,9 +1122,6 @@ point 8920.31 4779.720000000002 station -name NY3.12
 
 point 8795.51 4867.710000000003 station -name NY3.22
 
-line wall
-endline
-
 line wall -close off -reverse on
   8756.5 4958.0
 endline
@@ -1146,8 +1135,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   8956.0 4871.0
@@ -1163,8 +1150,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   8754.5 4856.0
@@ -1260,8 +1245,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 7988.62 4216.330000000002 station -name JJ20
 
