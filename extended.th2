@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 32185.484999999997 10598.315
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {16104.61 1 1.0} {5611.27 F_0} background_ext.xvi 0 {}
+##XTHERION## xth_me_image_insert {16104.61 1 1.0} {5611.27 F_0} working/background_ext.xvi 0 {}
 
 
 
@@ -47,9 +47,6 @@ endline
 point 5359.370000000001 5770.52 station -name 14
 
 point 5561.530000000001 5321.710000000001 station -name 16
-
-line wall
-endline
 
 endscrap
 
@@ -179,9 +176,6 @@ line border -id l21-11732-5185
   11672.0 5186.0
 endline
 
-line wall
-endline
-
 endscrap
 
 
@@ -236,8 +230,6 @@ endscrap
 
 scrap scrap4 -projection extended -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
 
-line wall
-endline
 
 line wall
   15690.0 5628.0

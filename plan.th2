@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 20127.96 17824.815
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {4112.639999999999 1 1.0} {14696.060000000001 0} background.xvi 0 {}
+##XTHERION## xth_me_image_insert {4112.639999999999 1 1.0} {14696.060000000001 0} working/background.xvi 0 {}
 
 
 
