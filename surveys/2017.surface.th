@@ -1,6 +1,28 @@
 encoding  utf-8
 survey surface_survey -namespace off -title "Главный Калибр" -entrance 16
 
+centerline
+  cs lat-long
+  fix gml_pbl2_10  43.356367  43.413083 1225
+  fix gml_JJ34   43.355746   43.408367 1235
+  flags surface
+  units length meters
+  units compass clino degrees
+  data normal from to length compass clino
+  gml_pbl2_10 - 1 0 -90
+  gml_JJ34 - 1 0 -90
+endcenterline
+
+centerline
+  cs lat-long
+  #flags surface
+  units length meters
+  units compass clino degrees
+  fix svezhaya 43.35635581 43.40819657 1341
+  data normal from to length compass clino
+  svezhaya - 10 0 -90
+endcenterline
+
  centerline -copyright "1982-2018" "Спелеоклуб Перово"
     date 2017.01.06 
     team "Павел Кравчик" instruments
