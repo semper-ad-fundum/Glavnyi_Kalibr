@@ -79,8 +79,11 @@ centerline
     extend right
     
    # pbl2_10 - сталагмит, ГМЛ4
+# this was commented out here since GPS location was measured on surface,
+# not in cave; these coordinaes have been thus marked as a separate point
+# in surveys/2017.surface.th
   cs lat-long
-  fix pbl2_10  43.356367  43.413083 1225
+  #fix pbl2_10  43.356367  43.413083 1225
 
      pbl2_10 - 1.68 93.0 86.6
     pbl2_10 - 0.73 31.8 -78.5

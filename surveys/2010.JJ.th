@@ -98,7 +98,10 @@ team "Анна Коваленко" instruments
         JJ33         JJ34     7.55   130.00     9.00     3.28     3.28     1.97     6.56  #завал 
 # JJ34 - ГМЛ1
 cs lat-long
-fix JJ34   43.355746   43.408367 1235
+# this was commented out here since GPS location was measured on surface,
+# not in cave; these coordinaes have been thus marked as a separate point
+# in surveys/2017.surface.th
+#fix JJ34   43.355746   43.408367 1235
    endcenterline
 endsurvey
 
