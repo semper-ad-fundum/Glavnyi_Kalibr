@@ -2282,7 +2282,9 @@ endscrap
 
 
 
-scrap vetka75 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+scrap vetka41 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+
+point 7386.0 9728.0 label -text "41"
 
 point 7847.01 9919.22 station -name 65@GK03
 
@@ -2431,9 +2433,14 @@ endscrap
 
 
 
-scrap vetka84 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+scrap vetka113 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
 
 point 7241.49 9654.46 station -name 113@GK03
+
+line pit
+  7150.0 9965.0
+  7150.0 9965.0 7116.0 9990.5 7046.5 9948.5
+endline
 
 line wall
   7349.25 9755.75
@@ -2558,6 +2565,17 @@ endline
 
 point 7220.43 9787.13 station -name 84@GK03
 
+line wall
+  7670.5 9671.5
+  7670.5 9671.5 7567.56 9709.55 7550.0 9705.5
+endline
+
+line wall
+  7592.5 9677.0
+  7598.0 9674.0 7683.0 9646.0 7683.0 9646.0
+  smooth off
+endline
+
 endscrap
 
 
@@ -2565,6 +2583,14 @@ endscrap
 scrap vetka98 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
 
 point 6805.0 10109.0 label -text "136"
+
+line pit
+endline
+
+line pit -reverse on
+  7228.0 9727.5
+  7228.0 9727.5 7234.25 9750.5 7253.0 9755.75
+endline
 
 line wall
   7187.0 9806.0
@@ -2674,8 +2700,6 @@ line wall
   7497.5 9652.5 7516.0 9658.5 7519.0 9660.5
   7522.0 9662.5 7545.5 9689.0 7554.0 9685.5
   7562.5 9682.0 7587.0 9680.0 7592.5 9677.0
-  7598.0 9674.0 7683.0 9646.0 7683.0 9646.0
-  smooth off
 endline
 
 line wall
@@ -2689,9 +2713,7 @@ endline
 point 7211.77 9790.09 station -name 122@GK03
 
 line wall
-  7670.5 9671.5
-  7670.5 9671.5 7588.5 9697.0 7580.5 9699.5
-  7572.5 9702.0 7553.0 9706.5 7550.0 9705.5
+  7550.0 9705.5
   7547.0 9704.5 7507.0 9680.0 7502.0 9677.5
   7497.0 9675.0 7425.5 9694.5 7417.0 9697.5
   7408.5 9700.5 7332.5 9732.0 7329.5 9736.5
@@ -2707,7 +2729,9 @@ endscrap
 
 
 
-scrap vetka137 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+scrap vetka164 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+
+point 8195.0 9856.0 label -text "164"
 
 point 8122.79 9868.83 station -name 164@GK03
 
@@ -2934,7 +2958,9 @@ endscrap
 
 
 
-scrap vetka173 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+scrap vetka182 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
+
+point 8209.5 9980.5 label -text "182"
 
 point 8160.59 9977.49 station -name 182@GK03
 
