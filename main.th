@@ -34,8 +34,11 @@ survey main -title "Главный Калибр"
   # обрисовка карты пещеры
   input "plan.th2"
 
-   map topFloor
+   map topLeft
      vetka98
+  endmap  
+
+   map topRight
      vetka182
      break
      vetka164
@@ -47,7 +50,11 @@ survey main -title "Главный Калибр"
     break
     vetka41
     break
+    vetka59
+    break
     vetka40
+    break
+    
     vodopad1
     vodopad2 
     #HMb 
@@ -69,8 +76,8 @@ survey main -title "Главный Калибр"
    endmap
     
   map mainMap
-    topFloor [0 50 m] above
-    break
+    topLeft [-20 0 m] above
+    topRight [60 0 m] above
     lowerFloor
   endmap
   
