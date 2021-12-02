@@ -12,7 +12,9 @@ survey main -title "Главный Калибр"
   input "surveys/2017.pbl2.th"
   input "surveys/2017.dalhod.th"
   input "surveys/2017.pravhod.th"
-  input "surveys/2017.river.th"
+  
+  # 2017 survey from entrance to junction, replaced by 2019
+  #input "surveys/2017.river.th"
 
 # переснятая река до входа, заменяет данные с 2017 года
   input "surveys/2019.GK03.th"
@@ -47,26 +49,31 @@ survey main -title "Главный Калибр"
     scrap22J
     scrapNY2
     scrap2J
-    HMb 
+    vodopad1
+    vodopad2
+    vetka75
+    vetka84
+    vetka98
+    #HMb 
   endmap
   
   # обрисовка разреза пещеры
-  input "extended.th2"
+  #input "extended.th2"
   
-  map schema_ext -projection extended
-    scrap1
-    scrap2
-    scrap3
-    scrap4
-    scrap5
-    scrap6_HM
-    scrap6_pbl
-    scrap7
-    scrap8_UW
-    scrap9_NY
-    scrap9_JJ
-    scrap9_2JJ
-  endmap
+  #map schema_ext -projection extended
+    #scrap1
+    #scrap2
+    #scrap3
+    #scrap4
+    #scrap5
+    #scrap6_HM
+    #scrap6_pbl
+    #scrap7
+    #scrap8_UW
+    #scrap9_NY
+    #scrap9_JJ
+    #scrap9_2JJ
+  #endmap
 
 endsurvey
 

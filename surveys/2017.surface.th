@@ -3,19 +3,27 @@ survey surface_survey -namespace off -title "Главный Калибр" -entra
 
 centerline
   cs lat-long
-  fix gml_pbl2_10  43.356367  43.413083 1225
-  fix gml_JJ34   43.355746   43.408367 1235
+  # the original GML altitudes were manually fixed at cave altitude
+  # which however breaks the loop correction algorithm as these
+  # are not real locations of the GML points
+  #fix gml_pbl2_10  43.356367  43.413083 1225
+  #fix gml_JJ34   43.355746   43.408367 1235
+  # instead, use GML locations on surface (estimated altitude)
+  fix gml_pbl2_10  43.356367  43.413083 1341
+  fix gml_JJ34   43.355746   43.408367 1341
   flags surface
   units length meters
   units compass clino degrees
   data normal from to length compass clino
-  gml_pbl2_10 - 1 0 -90
-  gml_JJ34 - 1 0 -90
+  # and then draw vertical lines from GML down to see how well
+  # they match the respective points underground
+  gml_pbl2_10 - 100 0 -90
+  gml_JJ34 - 100 0 -90
 endcenterline
 
 centerline
   cs lat-long
-  #flags surface
+  flags surface
   units length meters
   units compass clino degrees
   fix svezhaya 43.35635581 43.40819657 1341
