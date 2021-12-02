@@ -7,6 +7,9 @@ source main.th
 export map -format xvi -o working/background.xvi
 export map -format xvi -projection extended -o working/background_ext.xvi
 
+maps on
+maps-offset on
+
 layout normal
      symbol-set UIS
      scale 1 500
@@ -29,7 +32,7 @@ layout normal
      symbol-show point flag:continuation
 endlayout
 
-export map -format pdf -layout normal -projection extended -o output/GlavnyKalibrExt.pdf
+#export map -format pdf -layout normal -projection extended -o output/GlavnyKalibrExt.pdf
 export map -format pdf -layout normal -o output/GlavnyKalibr.pdf
 export map -o output/GlavnyKalibr.svg
 export map -o output/GlavnyKalibr.kml

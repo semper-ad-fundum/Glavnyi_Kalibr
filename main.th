@@ -33,9 +33,33 @@ survey main -title "Главный Калибр"
 
   # обрисовка карты пещеры
   input "plan.th2"
-  
-  map schema -projection plan
+
+  map mainMap
+    topFloor [-100 0 m] none
+    break
+    lowerFloor
+  endmap
+    
+   map topFloor
+     vetka182
+     break
+     vetka164
+  endmap  
+    
+   map lowerFloor
     entr
+    
+    vetka113
+    break
+    vetka98
+    break
+    vetka41
+    break
+    vetka40
+    vodopad1
+    vodopad2 
+    #HMb 
+    
     HM
     PBL2
     pravhod
@@ -50,25 +74,9 @@ survey main -title "Главный Калибр"
     scrapNY2
     scrap2J
     
-    vetka182
-    break
+   endmap
     
-    vetka98
-    vetka164
-    
-    break
-    
-    vetka113
-    break
-    
-    vetka41
-    break
-    
-    vodopad1
-    vodopad2
-    
-    #HMb 
-  endmap
+
   
   # обрисовка разреза пещеры
   #input "extended.th2"
