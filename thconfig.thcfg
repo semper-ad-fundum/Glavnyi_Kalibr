@@ -7,12 +7,12 @@ source main.th
 export map -format xvi -o working/background.xvi
 export map -format xvi -projection extended -o working/background_ext.xvi
 
-maps on
-maps-offset on
+#maps on
+#maps-offset on
 
 layout normal
      symbol-set UIS
-     scale 1 500
+     #scale 1 500
      doc-author "Григорий Саневич, Павел Кравчик"
      doc-title "Главный Калибр"
      statistics explo all  
@@ -21,7 +21,7 @@ layout normal
      statistics copyright all
      map-comment "Спелеоклуб Перово"
      # помогает при обрисовке новых веток
-     debug station-names
+     #debug station-names
      # выключаем поскольку получается очень маленькой на карте большого масштаба
      #map-header 0 0 off
      #color map-fg 80
@@ -32,9 +32,12 @@ layout normal
      symbol-show point flag:continuation
 endlayout
 
+# map offset requires 1) select on the main map, 2) namespace (@) specification
+select mainMap@main
+
 #export map -format pdf -layout normal -projection extended -o output/GlavnyKalibrExt.pdf
 export map -format pdf -layout normal -o output/GlavnyKalibr.pdf
-export map -o output/GlavnyKalibr.svg
-export map -o output/GlavnyKalibr.kml
+#export map -o output/GlavnyKalibr.svg
+#export map -o output/GlavnyKalibr.kml
 export model -o output/GlavnyKalibr.3d
 export model -o output/GlavnyKalibr.lox
