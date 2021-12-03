@@ -10,9 +10,18 @@ export map -format xvi -projection extended -o working/background_ext.xvi
 #maps on
 #maps-offset on
 
+layout atlas
+  symbol-set UIS
+  scale 1 1000
+  color map-fg altitude
+  symbol-hide group surface-centerline
+  symbol-hide group cave-centerline
+  symbol-show point flag:continuation
+endlayout
+
 layout normal
      symbol-set UIS
-     #scale 1 500
+     scale 1 200
      doc-author "Григорий Саневич, Павел Кравчик"
      doc-title "Главный Калибр"
      statistics explo all  
@@ -37,7 +46,8 @@ select mainMap@main
 
 #export map -format pdf -layout normal -projection extended -o output/GlavnyKalibrExt.pdf
 export map -format pdf -layout normal -o output/GlavnyKalibr.pdf
-#export map -o output/GlavnyKalibr.svg
-#export map -o output/GlavnyKalibr.kml
+export map -o output/GlavnyKalibr.svg
+export map -o output/GlavnyKalibr.kml
+export atlas -layout atlas -format pdf -o output/GlavnyKalibrAtlas.pdf
 export model -o output/GlavnyKalibr.3d
 export model -o output/GlavnyKalibr.lox
