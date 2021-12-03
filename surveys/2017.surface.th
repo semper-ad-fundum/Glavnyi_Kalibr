@@ -3,6 +3,7 @@ survey surface_survey -namespace off -title "Главный Калибр" -entra
 
 centerline
   cs lat-long
+  date 2017.01.06 
   # the original GML altitudes were manually fixed at cave altitude
   # which however breaks the loop correction algorithm as these
   # are not real locations of the GML points
@@ -22,6 +23,7 @@ centerline
 endcenterline
 
 centerline
+ date 2017.01.06 
   cs lat-long
   flags surface
   units length meters
