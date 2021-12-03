@@ -28,7 +28,7 @@ layout normal
      color map-fg altitude
      symbol-hide group surface-centerline
      symbol-hide group cave-centerline
-     symbol-hide point cave-station
+     #symbol-hide point cave-station
      symbol-show point flag:continuation
 endlayout
 
