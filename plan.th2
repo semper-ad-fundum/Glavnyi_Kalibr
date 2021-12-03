@@ -3356,6 +3356,10 @@ line wall -reverse on
   8393.5 8690.0 8418.0 8584.0 8417.5 8582.0
 endline
 
+point 8400.5 8599.5 map-connection
+
+point 8112.5 9423.5 map-connection
+
 line wall
   8174.0 9255.5
   8170.0 9262.25 8178.0 9319.0 8175.25 9323.75

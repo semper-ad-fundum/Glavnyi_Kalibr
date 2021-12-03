@@ -42,7 +42,11 @@ survey main -title "Главный Калибр"
      vetka182
      break
      vetka164
-  endmap  
+  endmap 
+  
+  map balkon
+    balkon1
+  endmap
     
    map lowerFloor
     entr
@@ -53,10 +57,7 @@ survey main -title "Главный Калибр"
     vetka59
     break
     vetka40
-    break
-    balkon1
-    break
-    
+    break    
     vodopad1
     vodopad2 
     #HMb 
@@ -80,6 +81,7 @@ survey main -title "Главный Калибр"
   map mainMap
     topLeft [-20 0 m] above
     topRight [60 0 m] above
+    balkon [25 0 m] above
     lowerFloor
   endmap
   
