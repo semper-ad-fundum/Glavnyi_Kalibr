@@ -65,20 +65,28 @@ survey main -title "Главный Калибр"
     hmt
     break
     razvilka
+    nyjj1
+    break
+    ny25
+    break
+    left3
+    break
+    left2
+    break
+    left1
+    left4
+    break
+    left5
     
     HM
     PBL2
     pravhod
-    UW
-    scrapNY4
-    scrapNY3
-    scrapJJ
-    break
+    #scrapNY4
+    #scrapNY3
+    #scrapJJ
+    #break
     HMc
     PBL2b
-    scrap22J
-    scrapNY2
-    scrap2J
     
    endmap
     
