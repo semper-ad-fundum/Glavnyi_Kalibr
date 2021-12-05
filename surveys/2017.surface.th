@@ -10,9 +10,28 @@ centerline
   #fix gml_pbl2_10  43.356367  43.413083 1225
   #fix gml_JJ34   43.355746   43.408367 1235
   # instead, use GML locations on surface (estimated altitude)
-  fix gml_pbl2_10  43.356367  43.413083 1341
-  fix gml_JJ34   43.355746   43.408367 1341
   flags surface
+  
+  # ПРЛ-1 ГМЛ-1
+  # Конец правой ветки
+  # высота определённая при помощи Google Earth (по GPS отсутсвует)
+  fix gml_JJ34   43.355746   43.408367 1366
+  
+  # ПРЛ-2 ГМЛ-2
+  # Пересечение правой ветки с балкой
+  # высота определённая при помощи Google Earth (по GPS отсутсвует)
+  fix gml2 43.355230 43.409011 1370
+  
+  # ПРЛ-3 ГМЛ-3
+  # на краю воронки, оценка глубины 35-40м 
+  # дно воронки плоское, по высоте -2м от эпицентра
+  # высота определённая при помощи Google Earth (по GPS отсутсвует)
+  fix gml3 43.358712 43.408738  1348
+  
+  # ПРЛ-4 ГМЛ-4
+  # высота определённая при помощи Google Earth (по GPS отсутсвует)
+  fix gml_pbl2_10  43.356367  43.413083 1328
+  
   units length meters
   units compass clino degrees
   data normal from to length compass clino
