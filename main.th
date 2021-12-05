@@ -69,14 +69,14 @@ survey main -title "Главный Калибр"
     break
     ny25
     break
-    left3
+    pravaya3
     break
-    left2
+    pravaya2
     break
-    left1
-    left4
+    pravaya1
+    pravaya4
     break
-    left5
+    pravaya5
     
     HM
     PBL2
