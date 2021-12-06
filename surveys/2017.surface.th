@@ -4,38 +4,43 @@ survey surface_survey -namespace off -title "Главный Калибр" -entra
 centerline
   cs lat-long
   date 2017.01.06 
-  # the original GML altitudes were manually fixed at cave altitude
-  # which however breaks the loop correction algorithm as these
-  # are not real locations of the GML points
-  #fix gml_pbl2_10  43.356367  43.413083 1225
-  #fix gml_JJ34   43.355746   43.408367 1235
-  # instead, use GML locations on surface (estimated altitude)
   flags surface
   
   # ПРЛ-1 ГМЛ-1
+  # KML Point: longitude, latitude, altitude
+  # <coordinates>43.40836693549373,43.35574584608345,0</coordinates>
   # Конец правой ветки
   # высота определённая при помощи Google Earth (по GPS отсутсвует)
-  fix gml_JJ34   43.355746   43.408367 1366
+  fix gml_JJ34 43.35574584608345 43.40836693549373  1366
   
   # ПРЛ-2 ГМЛ-2
+  # KML Point: longitude, latitude, altitude
+  # <coordinates>43.40791666666667,43.35648333333334,0</coordinates>
+  # возможно в зале около точки JJ20 в правой ветке
   # Пересечение правой ветки с балкой
   # высота определённая при помощи Google Earth (по GPS отсутсвует)
-  fix gml2 43.355230 43.409011 1370
+  fix gml2 43.356483 43.407917 1370
   
   # ПРЛ-3 ГМЛ-3
+  # KML Point: longitude, latitude, altitude
+  # <coordinates>43.4085,43.35973333333333,0</coordinates>
+  # "Исход над лабиринтом" над водопадом, возможно точка 183@GK03
   # на краю воронки, оценка глубины 35-40м 
   # дно воронки плоское, по высоте -2м от эпицентра
   # высота определённая при помощи Google Earth (по GPS отсутсвует)
-  fix gml3 43.358712 43.408738  1348
+  fix gml3 43.359733 43.408500  1338
   
   # ПРЛ-4 ГМЛ-4
-  # высота определённая при помощи Google Earth (по GPS отсутсвует)
-  fix gml_pbl2_10  43.356367  43.413083 1328
+  # KML Point: longitude, latitude, altitude
+  # <coordinates>43.41308333333333,43.35636666666667,1333</coordinates>
+  # оценка глубины - около 45м от поверхности, 25м от дна балки
+  # Сталагмит в ПБЛ-2
+  fix gml_pbl2_10  43.35636666666667  43.41308333333333 1333
   
   units length meters
   units compass clino degrees
   data normal from to length compass clino
-  # and then draw vertical lines from GML down to see how well
+  # and then draw vertical splay lines from GML down to see how well
   # they match the respective points underground
   gml_pbl2_10 - 100 0 -90
   gml_JJ34 - 100 0 -90
