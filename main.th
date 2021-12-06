@@ -62,6 +62,7 @@ survey main -title "Главный Калибр"
     vodopad2 
     #HMb 
     
+    # right leg
     hmt
     break
     razvilka
@@ -78,15 +79,27 @@ survey main -title "Главный Калибр"
     break
     pravaya5
     
-    HM
-    PBL2
-    pravhod
+    #HM
+    #PBL2
+    #pravhod
     #scrapNY4
     #scrapNY3
     #scrapJJ
     #break
-    HMc
-    PBL2b
+    #HMc
+    #PBL2b
+    
+    # left leg
+    
+    pravhod_2
+    break
+    pravhod_1
+    break
+    metro
+    
+    pbl2_2
+    break
+    pbl2
     
    endmap
     
