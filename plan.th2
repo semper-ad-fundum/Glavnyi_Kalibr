@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -175.28000000000088 -2008.16 19372.019999999997 18228.114999999998
+##XTHERION## xth_me_area_adjust -439.84999999999945 -2180.980000000001 19520.835 18134.035
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {8446.42 1 1.0} {8021.379999999999 F_0@main} working/background.xvi 0 {}
 
@@ -565,7 +565,7 @@ line wall
   smooth off
 endline
 
-point 8197.75 9432.25 label -text "Водопад"
+point 8227.75 9402.25 label -text "Водопад"
 
 line wall -close on -outline in
   8035.5 9439.25
@@ -709,7 +709,7 @@ line border -id l365-8140-9575 -close on -reverse on
   smooth off
 endline
 
-point 8010.0 9650.0 label -text "шк"
+point 8010.0 9650.0 label -text "шк" -scale s
 
 line wall
   8023.25 9652.25
@@ -911,8 +911,6 @@ endscrap
 
 scrap vetka41 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
 
-point 7381.0 9727.0 label -text "41"
-
 point 7847.01 9919.22 station -name 65@GK03
 
 line wall
@@ -948,7 +946,7 @@ endline
 
 point 7369.049999999999 9703.47 station -name 41@GK03
 
-point 7379.0 9648.0 label -text "12m"
+point 7406.0 9554.0 label -text "12m" -scale s
 
 line pit
 endline
@@ -1059,7 +1057,7 @@ point 7378.5 9676.0 rope
 
 point 7753.0 9758.0 rope
 
-point 7746.0 9787.0 label -text "13m"
+point 7669.0 9854.0 label -text "13m" -scale s
 
 line pit -reverse on
   7780.0 9768.0
@@ -1100,7 +1098,7 @@ endline
 
 point 7137.0 9285.0 continuation
 
-point 7145.0 9977.5 label -text "7m"
+point 7162.0 9988.5 label -text "7m" -scale s
 
 line wall
   7349.25 9755.75
@@ -1139,8 +1137,6 @@ line wall
   7664.0 9732.5 7683.5 9681.0 7670.5 9671.5
   smooth off
 endline
-
-point 7276.0 9665.0 label -text "113"
 
 line wall
   7683.0 9646.0
@@ -1260,8 +1256,6 @@ endscrap
 
 scrap vetka98 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
 
-point 6805.0 10109.0 label -text "136"
-
 line pit
 endline
 
@@ -1305,8 +1299,6 @@ line wall
   7125.0 9766.0 7123.0 9759.0 7123.0 9759.0
   smooth off
 endline
-
-point 7174.0 9764.0 label -text "122"
 
 line pit -close off
   7100.5 9358.5
@@ -1392,7 +1384,7 @@ endline
 
 point 7211.77 9790.09 station -name 122@GK03
 
-point 7212.5 9753.5 label -text "4m"
+point 7212.5 9753.5 label -text "4m" -scale s
 
 line wall
   7525.0 9691.0
@@ -1410,8 +1402,6 @@ endscrap
 
 
 scrap vetka164 -projection plan -scale [-128.0 -128.0 20127.96 -128.0 0.0 0.0 514.5013839999999 0.0 m]
-
-point 8195.0 9856.0 label -text "164"
 
 point 8122.79 9868.83 station -name 164@GK03
 
@@ -1903,7 +1893,7 @@ endline
 line wall -outline in
 endline
 
-point 8197.5 9301.5 label -text "Балкон"
+point 8303.5 9267.5 label -text "Балкон"
 
 line wall -reverse on
   8383.5 8607.0
@@ -2102,7 +2092,17 @@ point 8302.32 7972.57 station -name 0@GK03
 
 point 8466.1 8194.42 station -name 14@GK03
 
-point 8368.5 8022.0 label -text "Развилка"
+point 10216.0 6704.0 label -text "Метро" -scale l
+
+point 7040.0 9004.0 label -text "Лабиринт" -scale xl
+
+point 6936.0 11796.0 label -text "Река" -scale xl
+
+point 12316.0 5432.0 label -text "Левая ветка" -scale xl
+
+point 7708.0 5708.0 label -text "Правая ветка" -scale xl
+
+point 7652.0 8044.0 label -text "Развилка" -scale xl
 
 line wall
   8421.25 8213.75
@@ -2226,7 +2226,12 @@ line pit -close on -reverse on
   smooth off
 endline
 
-point 8548.0 8098.0 label -text "Старая часть"
+line arrow
+  8620.0 8342.0
+  8410.25 8427.75
+endline
+
+point 8650.0 8338.0 label -text "Старая часть"
 
 endscrap
 

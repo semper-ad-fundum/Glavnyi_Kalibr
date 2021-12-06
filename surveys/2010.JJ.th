@@ -96,14 +96,16 @@ team "Анна Коваленко" instruments
         JJ31         JJ32    13.12   125.00    20.00     2.62     4.27     0.66     1.31
         JJ32         JJ33    11.81   152.00     6.00     1.64     4.27     0.00     1.64  #т¤га вперед!!!
         JJ33         JJ34     7.55   130.00     9.00     3.28     3.28     1.97     6.56  #завал 
-# JJ34 - ГМЛ1 (ПРЛ-1) Конец правой ветки
-# GPS 43.40842839015523, 43.35570787415032
-# altitude 0, heading -3.005891619231275, 
-cs lat-long
-# this was commented out here since GPS location was measured on surface,
-# not in cave; these coordinaes have been thus marked as a separate point
-# in surveys/2017.surface.th
-#fix JJ34   43.355746   43.408367 1235
+        
+   # JJ34 - ГМЛ1 (ПРЛ-1) Конец правой ветки
+   # GPS 43.40842839015523, 43.35570787415032
+   # altitude 0, heading -3.005891619231275, 
+   cs lat-long
+   # корректа ветки пещеры при данных гео-магнитной локализации
+   # точка ГМЛ была отмечена на поверхности (файл surveys/2017.surface.th)
+   # за тем высота н.у.м. была пересчитана по ветке пещеры и нанесена сюда
+   fix JJ34   43.355746   43.408367 1252
    endcenterline
+   
 endsurvey
 
