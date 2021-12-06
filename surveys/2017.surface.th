@@ -117,3 +117,12 @@ endcenterline
   endcenterline
 endsurvey
 
+# Модель поверхности добавлен при помощи TerrainTool
+# https://ubss.org.uk/terraintool/terraintool.php
+# файл NASA:
+# https://e4ftl01.cr.usgs.gov/MEASURES/NASADEM_HGT.001/2000.02.11/NASADEM_HGT_n43e043.zip
+# параметры TerrainTool:
+# UTM 38N 371030.22 4801957.04
+# квадрат 1000x1000 м, от центра, разрешение 50 м
+input "terrain2.th"
+
