@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -420.3600000000001 -1786.9300000000012 19500.954999999998 18095.015
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {8446.42 1 1.0} {8021.379999999999 F_0@main} working/background.xvi 0 {}
 
 
@@ -2227,11 +2227,11 @@ line pit -close on -reverse on
 endline
 
 line arrow
-  8620.0 8342.0
-  8410.25 8427.75
+  8602.0 8079.0
+  8518.0 8100.0
 endline
 
-point 8650.0 8338.0 label -text "Старая часть"
+point 8632.0 8083.0 label -text "Старая часть"
 
 endscrap
 
@@ -3236,7 +3236,7 @@ line wall
   8733.0 7803.0 8703.3 7838.08 8698.0 7850.0
   8690.0 7868.0 8630.0 7930.0 8620.0 7935.0
   8610.0 7940.0 8580.0 7931.0 8565.0 7945.0
-  8550.0 7959.0 8522.99 7962.719999999999 8522.99 7962.719999999999
+  8550.0 7959.0 8519.5 7969.0 8519.5 7969.0
   smooth off
 endline
 
